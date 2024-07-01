@@ -1,0 +1,8 @@
+.linkImg{
+    display: flex;
+    justify-content: center;
+}
+
+.linkImg img{
+    max-width: 500px;
+}
