@@ -4,7 +4,7 @@ import logo from './assets/olympus.png'
 
 function App() {
   return <div>
-    <Header>🚧Under Construction🚧</Header>
+    <Header> 🚧Under Construction🚧 </Header>
     <LinkImage imageUrl={logo} linkUrl="https://discord.gg/DgFe8qdCYG"></LinkImage>
   </div>
 }
