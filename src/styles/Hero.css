@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+.hero {
+
+    grid-area: hero;
+    background-color: #CD7F7F;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas: "cta hero-image"
+                        "cta hero-image";
+    grid-template-columns: 1fr 52.5%;
+    grid-template-rows: 2fr 1fr;
+}
+
+.hero img {
+    position: relative;
+    top: -5%;
+    grid-area: hero-image;
+}
+
+.hero .hero-text {
+    align-self: center;
+    text-align: center;
+    grid-area: cta;
+    color: #FFFFFF;
+    font-family: "Cinzel", serif;
+    
+}
+
+.hero h2{
+    font-size: 19pt;
+    font-weight: bolder;
+}
+
+.hero h1{
+    font-size: 40pt;
+    font-weight: bolder;
+}
+
+.hero button{
+    padding: .75rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    margin-top: 75px;
+    font-family: "Inter", sans-serif;
+}
