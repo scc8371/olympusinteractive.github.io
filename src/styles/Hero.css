@@ -10,15 +10,15 @@
     display: grid;
     grid-template-areas: "cta hero-image"
                         "cta hero-image";
-    grid-template-columns: 1fr 52.5%;
+    grid-template-columns: 45% 55%;
     grid-template-rows: 2fr 1fr;
 }
 
 .hero img {
-    position: relative;
-    top: -5%;
     grid-area: hero-image;
     z-index: 1;
+    width: 100%;
+    
 }
 
 .hero .hero-text {
