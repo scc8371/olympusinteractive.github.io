@@ -1,5 +1,3 @@
-import Header from "./components/Header";
-import LinkImage from "./components/LinkImage";
 import Navbar from "./components/Navbar";
 import NavLink from './components/NavLink'
 import Hero from "./components/Hero"

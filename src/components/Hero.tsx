@@ -12,9 +12,7 @@ const Hero = () => {
                     <h2>An Indie Studio Founded by RIT Graduates</h2>
                     <Button>Join our Newsletter</Button>
                 </div>
-                <img src={assets["logo-pantheon"]}></img>
-                
-                
+                <img src={assets["logo-pantheon"]}></img>            
             </>
         </div>
     )
