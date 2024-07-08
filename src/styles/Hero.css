@@ -18,6 +18,7 @@
     position: relative;
     top: -5%;
     grid-area: hero-image;
+    z-index: 1;
 }
 
 .hero .hero-text {
