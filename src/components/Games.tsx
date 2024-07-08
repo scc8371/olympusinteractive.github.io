@@ -3,15 +3,13 @@ import "../styles/Games.css"
 import assets from "../assets"
 import Button from "../components/Button"
 import Panel from "../components/Panel"
+import Header from "../components/Header"
 
 const Games = () => {
   return (
     <div className="games">
       <>
-        <div className="game-header">
-          <h1>Games</h1>
-          <h3>OUR MYTHOS</h3>
-        </div>
+        <Header children="Games" subtitle="Our Mythos"></Header>
 
         <Panel imageSource={assets["logo-no-background"]} title="Ninjas on Trampolines" dates="August 2023 - Present" tag="hero" buttonText='Learn More!'>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</Panel>
 

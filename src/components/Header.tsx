@@ -1,12 +1,18 @@
+import "../styles/Header.css"
+
 interface HeaderProps{
     children: string
+    subtitle: string
 };
 
-const Header = ({children} : HeaderProps) => {
+const Header = ({children, subtitle} : HeaderProps) => {
     return (
         <div>
             <>
-                <h1 style={{ textAlign: "center", fontSize: "3rem", margin: "2rem" }}>{children}</h1>
+            <div className="headerGroup">
+                <h1 style={{fontSize: "3rem" }}>{children}</h1>
+                <h3>{subtitle}</h3>
+            </div> 
             </>
         </div>
     )
