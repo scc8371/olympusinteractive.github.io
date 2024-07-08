@@ -4,12 +4,14 @@
     margin: 0rem !important;
     background-color: #d9d9d9;
     color: black;
-    padding-right: 5rem;
-    padding-left: 5rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
     box-shadow: 12px 12px 0px #a0a0a0;
-    margin: 5rem !important;
+    margin: 3rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 3rem !important;
 
 }
 
@@ -21,7 +23,7 @@
         "btn .";
 
     grid-template-columns: auto;
-    grid-template-rows: 500px .1fr .1fr .1fr;
+    grid-template-rows: 35vw auto;
 }
 
 .panel img {
@@ -32,9 +34,12 @@
     justify-self: center;
     height: 100%;
     width: 100%;
+    background-color: #1E1E1E;
+    padding: 1rem;
 }
 
 .panel-info {
+    margin-top: 0.5rem;
     grid-area: name;
     font-family: "Cinzel", serif;
 
@@ -43,19 +48,19 @@
 }
 
 .panel .btn{
-    padding-right: 5rem;
-    padding-left: 5rem;
-    padding-top: .33rem;
-    padding-bottom: .33rem;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-top: .33vw;
+    padding-bottom: .33vw;
 }
 
 .panel-title{
-    font-size: 1.5vw !important;
+    font-size: 1.5rem !important;
 }
 
 .panel-dates {
     font-family: "Cinzel", serif;
-    font-size: 1vw;
+    font-size: 1rem;
     color: #9e0000;
     align-self: center;
     padding-left: 0.5rem;
@@ -63,11 +68,31 @@
 
 .panel-desc{
     grid-area: desc;
-    font-size: 1.2vw
+    font-size: 1rem;
+    max-width: 100% !important;
+    word-break: break-all;
+    white-space: normal;
+    padding: 0.5rem;
+    padding-left: 0rem;
 }
 
 #hero {
     grid-area: hero;
-    width: 65%;
+    width: 80%;
     justify-self: center;
 }
+
+#display{
+    max-width: 800px;
+    width: 80%;
+    justify-self: center;
+}
+
+#display img{
+    max-width: 100;
+}
+
+#display .panel-body{
+    grid-template-rows: auto !important;
+}
+
