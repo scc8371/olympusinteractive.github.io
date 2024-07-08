@@ -7,15 +7,11 @@
     max-width: 500px;
 }
 
-#root {
-    display: grid;
-    grid-template-areas: 
-        "hero"
-        "team"
-        "services"
-        "about"
-        "contact"
-        "footer";
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 0.1fr;
-    grid-template-columns: 1fr;
+.main {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.games {
+    grid-area: "games";
 }

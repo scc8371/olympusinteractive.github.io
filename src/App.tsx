@@ -3,6 +3,7 @@ import NavLink from './components/NavLink'
 import Hero from "./components/Hero"
 import Profiles from "./components/Profiles";
 import Games from "./components/Games";
+import Panel from "./components/Panel"
 import assets from "./assets"
 
 
@@ -18,11 +19,14 @@ const App = () => {
         <NavLink link={"#"}>Contact</NavLink>
       </Navbar>
 
-      <Hero></Hero>
-      <Games></Games>
-      <Profiles></Profiles>
+      <div className="main">
+        <Hero></Hero>
+        <Games></Games>
+        <Profiles></Profiles>
+      </div>
+
     </div>
-  ); 
+  );
 }
 
 export default App;

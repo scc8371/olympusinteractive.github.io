@@ -27,7 +27,8 @@
     grid-area: cta;
     color: #FFFFFF;
     font-family: "Cinzel", serif;
-    
+    margin-left: 1rem;
+    max-height: 100vh;    
 }
 
 .hero h2{

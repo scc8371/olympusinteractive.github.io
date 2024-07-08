@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+.panel {
+    margin: 0rem !important;
+    background-color: #d9d9d9;
+    color: black;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: 12px 12px 0px #a0a0a0;
+    margin: 5rem !important;
+
+}
+
+.panel-body {
+    display: grid;
+    grid-template-areas: "img img"
+        "name name"
+        "desc desc"
+        "btn .";
+
+    grid-template-columns: auto;
+    grid-template-rows: 500px .1fr .1fr .1fr;
+}
+
+.panel img {
+    padding: .5rem;
+
+    grid-area: img;
+
+    justify-self: center;
+    height: 100%;
+    width: 80%;
+}
+
+.panel-info {
+    grid-area: name;
+    font-family: "Cinzel", serif;
+
+    display: flex;
+}
+
+.panel .btn{
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-top: .33rem;
+    padding-bottom: .33rem;
+}
+
+.panel-dates {
+    font-family: "Cinzel", serif;
+    font-size: 12pt;
+    color: #9e0000;
+    align-self: center;
+    padding-left: 0.5rem;
+}
+
+.panel-desc{
+    grid-area: desc;
+    font-size: 16pt;
+}
+
+#hero {
+    grid-area: hero;
+    width: 65%;
+    justify-self: center;
+}

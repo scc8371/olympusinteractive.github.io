@@ -1,7 +1,7 @@
 import React from 'react'
 
 interface Props{
-    children: string
+    children?: string
 }
 
 const Button : React.FC<Props> = ({children}) => {
