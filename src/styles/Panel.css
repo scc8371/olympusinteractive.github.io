@@ -31,7 +31,7 @@
 
     justify-self: center;
     height: 100%;
-    width: 80%;
+    width: 100%;
 }
 
 .panel-info {
@@ -39,6 +39,7 @@
     font-family: "Cinzel", serif;
 
     display: flex;
+    max-width: 100%;
 }
 
 .panel .btn{
@@ -48,9 +49,13 @@
     padding-bottom: .33rem;
 }
 
+.panel-title{
+    font-size: 1.5vw !important;
+}
+
 .panel-dates {
     font-family: "Cinzel", serif;
-    font-size: 12pt;
+    font-size: 1vw;
     color: #9e0000;
     align-self: center;
     padding-left: 0.5rem;
@@ -58,7 +63,7 @@
 
 .panel-desc{
     grid-area: desc;
-    font-size: 16pt;
+    font-size: 1.2vw
 }
 
 #hero {
