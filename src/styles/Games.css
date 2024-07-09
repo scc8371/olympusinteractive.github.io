@@ -17,26 +17,6 @@
     grid-area: "games" !important;
 }
 
-.game-header {
-    position: absolute;
-    top: 0;
-    padding-top: 50px;
-    padding-left: 50px;
-}
-
-.game-header h1 {
-    font-size: 50px;
-    border-bottom: #FFF 3px solid;
-    width: 300px;
-}
-
-.game-header h3 {
-    font-size: 26px;
-    position: absolute;
-    left: 180px;
-    width: 300px;
-}
-
 .games-showcase {
     grid-area: display;
 

@@ -9,7 +9,7 @@ const Games = () => {
   return (
     <div className="games">
       <>
-        <Header children="Games" subtitle="Our Mythos"></Header>
+        <Header subtitle="Our Mythos">Games</Header>
 
         <Panel imageSource={assets["logo-no-background"]} title="Ninjas on Trampolines" dates="August 2023 - Present" tag="hero" buttonText='Learn More!'>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</Panel>
 
