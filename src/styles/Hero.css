@@ -32,12 +32,12 @@
 }
 
 .hero h2{
-    font-size: 19pt;
+    font-size: 1.5rem;
     font-weight: bolder;
 }
 
 .hero h1{
-    font-size: 40pt;
+    font-size: 3rem;
     font-weight: bolder;
 }
 
@@ -47,4 +47,44 @@
     padding-left: 5rem;
     margin-top: 75px;
     font-family: "Inter", sans-serif;
+}
+
+@media screen and (max-width: 1300px){
+    .hero .hero-text{
+        margin-top: 3rem;
+        margin-bottom: 0rem !important;
+    }
+
+    .hero h2{
+        font-size: 1rem;
+    }
+
+    .hero h1{
+        font-size: 2rem;
+    }
+
+    .hero button{
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .hero {
+
+        grid-area: hero;
+        background-color: #CD7F7F;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-areas: "cta"
+                            "hero-image";
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+
+    .hero .hero-text{
+        margin-top: 10rem;
+        margin-left: 0rem;
+    }
+    
 }
