@@ -1,24 +1,36 @@
-.profiles{
+.profiles {
     background-color: #CD7F7F;
     position: relative;
     color: #FFF;
     width: 100%;
-    height:100%;
+    height: 100%;
 
     display: grid;
     grid-template-columns: 4;
     padding-top: 12%;
-
 }
 
-.team-showcase{
+.team-showcase {
     grid-area: display;
-    
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(auto-fit);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+.team-showcase .panel{
+    max-width: 300px !important;
+
+}
+
+.team-showcase .panel img{
+    border: 1px solid blue;
+    height: 200px !important;
+    margin: 0rem !important;
+    padding: 0rem !important;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid red;
+}
 
 @media screen and (max-width: 860px) {
     .team-showcase {

@@ -8,20 +8,19 @@ import Header from "../components/Header"
 const Profiles = () => {
   return (
     <div className="profiles">
-        <>
+      <>
         <Header subtitle="The Olympians">Team</Header>
 
         <div className="team-showcase">
-          <Panel imageSource={assets["logo-no-background"]} title="Sami Chamberlain" dates="Back-end Programmer" tag="display" buttonText='Learn More!'>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</Panel>
-          <Panel imageSource={assets["logo-no-background"]} title="William Jeon" dates="Technical Artist" tag="display" buttonText='Learn More!'>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</Panel>
-          <Panel imageSource={assets["logo-no-background"]} title="Justin Looman" dates="UI Designer" tag="display" buttonText='Learn More!'>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</Panel>
-          <Panel imageSource={assets["logo-no-background"]} title="Iain Roach" dates="Programmer" tag="display" buttonText='Learn More!'>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</Panel>
-          <Panel imageSource={assets["logo-no-background"]} title="Kai Stone" dates="Artist" tag="display" buttonText='Learn More!'>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</Panel>
-          <Panel imageSource={assets["logo-no-background"]} title="Claire Wang" dates="Artist" tag="display" buttonText='Learn More!'>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</Panel>
-          <Panel imageSource={assets["logo-no-background"]} title="Trevor Strickland" dates="Sound Artist" tag="display" buttonText='Learn More!'>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</Panel>
-
+          <Panel imageSource={"https://placehold.co/700x750"} title="Justin Looman" tag="display">Team Lead / UI Design</Panel>
+          <Panel imageSource={"https://placehold.co/700x750"} title="Sami Chamberlain" tag="display">Lead Programmer</Panel>
+          <Panel imageSource={"https://placehold.co/700x750"} title="William Jeon" tag="display">Technical Artist</Panel>
+          <Panel imageSource={"https://placehold.co/700x750"} title="Iain Roach" tag="display">Programmer / Game Designer</Panel>
+          <Panel imageSource={"https://placehold.co/700x750"} title="Kai Stone" tag="display">2D / 3D Artist</Panel>
+          <Panel imageSource={"https://placehold.co/700x750"} title="Claire Wang" tag="display">2D Artist</Panel>
+          <Panel imageSource={"https://placehold.co/700x750"} title="Trevor Strickland" tag="display">Audio Designer</Panel>
         </div>
-        </>
+      </>
     </div>
   )
 }

@@ -7,8 +7,8 @@ interface Props {
     imageSource: string,
     imageAlt?: string,
     title: string,
-    dates: string,
-    children: string,
+    dates?: string,
+    children?: string,
     buttonText?: string,
     tag?: string
 }
@@ -18,13 +18,12 @@ interface Props {
 const Panel: React.FC<Props> = ({ imageSource, imageAlt, children, tag, title, dates, buttonText }) => {
 
     const [buttonVisibility, setButtonVisibility] = useState(false);
-
-    if(buttonText && buttonVisibility !== true) setButtonVisibility(true);
+    if((buttonText != undefined) && buttonVisibility !== true){
+        setButtonVisibility(true);
+    } 
 
     return (
         <>
-            
-
             <div className="panel panel-default" id={tag}>
                 <div className="panel-body">
                     <img src={imageSource} alt={imageAlt}></img>
