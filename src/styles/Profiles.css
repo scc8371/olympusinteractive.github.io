@@ -19,21 +19,38 @@
 }
 
 .team-showcase .panel{
-    max-width: 300px !important;
+    max-width: 335px !important;
+    border: 1px solid blue;
+    justify-content: center;
+    
+    white-space: pre-wrap;
+    word-break: break-word;
 
 }
 
+.team-showcase .panel .panel-title{
+    font-size: 1.4rem !important;
+}
+
+.team-showcase .panel-dates{
+    position: absolute;
+}
+
 .team-showcase .panel img{
-    border: 1px solid blue;
     height: 200px !important;
     margin: 0rem !important;
     padding: 0rem !important;
     background-color: rgba(0, 0, 0, 0);
-    border: 1px solid red;
 }
 
 @media screen and (max-width: 860px) {
     .team-showcase {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .team-showcase .panel .panel-desc{
+        text-align: center;
     }
 }

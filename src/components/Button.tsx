@@ -1,16 +1,14 @@
 import React from 'react'
 
-interface Props{
+interface Props {
     children?: string
 }
 
-const Button : React.FC<Props> = ({children}) => {
+const Button: React.FC<Props> = ({ children }) => {
     return (
-        <div>
-            <>
-                <button type="button" className="btn btn-dark">{children}</button>
-            </>
-        </div>
+        <>
+            <button type="button" className="btn btn-dark">{children}</button>
+        </>
     )
 }
 

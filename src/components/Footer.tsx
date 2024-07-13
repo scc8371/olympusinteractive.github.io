@@ -13,7 +13,7 @@ const Footer: React.FC<Props> = ({ logoLink, children }) => {
         <div className="panel panel-default">
           <div className="panel-body">
             <img className="footer-brand" src={logoLink}></img>
-            <div id="footer-logos">
+            <div className="footer-logos">
               {children}
             </div>
           </div>

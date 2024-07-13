@@ -20,7 +20,7 @@
     grid-template-areas: "img img"
         "name name"
         "desc desc"
-        "btn .";
+        "btn btn";
 
     grid-template-columns: auto;
     grid-template-rows: 35vw auto;
@@ -47,14 +47,18 @@
     max-width: 100%;
 }
 
-.panel .btn{
+.panel .btn {
     padding-right: 5vw;
     padding-left: 5vw;
     padding-top: .33vw;
     padding-bottom: .33vw;
+    grid-area: btn;
+    width: 66%;
+    height: 50px;
+    justify-self: center;
 }
 
-.panel-title{
+.panel-title {
     font-size: 1.5rem !important;
 }
 
@@ -66,7 +70,7 @@
     padding-left: 0.5rem;
 }
 
-.panel-desc{
+.panel-desc {
     grid-area: desc;
     font-size: 1rem;
     max-width: 100% !important;
@@ -82,17 +86,58 @@
     justify-self: center;
 }
 
-#display{
+#display {
     max-width: 800px;
     width: 80%;
     justify-self: center;
 }
 
-#display img{
+#display img {
     max-width: 100;
 }
 
-#display .panel-body{
+#display .panel-body {
     grid-template-rows: auto !important;
 }
 
+@media screen and (max-width: 860px) {
+    #hero {
+        max-width: 800px;
+        width: 80%;
+        justify-self: center;
+    }
+
+    .panel-body{
+        grid-template-rows: auto;
+    }
+    .panel .button{
+        justify-self: center;
+        align-self: center !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #hero img{
+        max-height: 100% !important;
+    }
+
+    .panel {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    
+
+    .panel-body {
+        grid-template-areas: "img img"
+            "name name"
+            "desc desc"
+            "btn btn" !important;
+    }
+
+    .panel-info {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
