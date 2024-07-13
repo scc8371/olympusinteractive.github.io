@@ -3,6 +3,7 @@ import NavLink from './components/NavLink'
 import Hero from "./components/Hero"
 import Profiles from "./components/Profiles";
 import Games from "./components/Games";
+import Services from "./components/Services";
 import Footer from "./components/Footer";
 import IconButton from "./components/IconButton"
 
@@ -27,6 +28,7 @@ const App = () => {
         <Hero></Hero>
         <Games></Games>
         <Profiles></Profiles>
+        <Services></Services>
         <Footer logoLink={assets["logo-no-background"]}>
           <IconButton link="." icon_definition={faXTwitter}></IconButton>
           <IconButton link="." icon_definition={faInstagram}></IconButton>

@@ -6,7 +6,6 @@
     height: 100%;
 
     display: grid;
-    grid-template-columns: 4;
     padding-top: 12%;
 }
 
@@ -20,7 +19,6 @@
 
 .team-showcase .panel{
     max-width: 335px !important;
-    border: 1px solid blue;
     justify-content: center;
     
     white-space: pre-wrap;
@@ -43,14 +41,29 @@
     background-color: rgba(0, 0, 0, 0);
 }
 
+
+@media screen and (max-width: 1200px){
+    .profiles{
+        grid-template-rows: 50px auto;
+    }
+}
+
 @media screen and (max-width: 860px) {
     .team-showcase {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .profiles{
+        grid-template-rows: 100px auto;
     }
 }
 
 @media screen and (max-width: 600px) {
     .team-showcase .panel .panel-desc{
         text-align: center;
+    }
+
+    .profiles{
+        grid-template-rows: 150px auto;
     }
 }

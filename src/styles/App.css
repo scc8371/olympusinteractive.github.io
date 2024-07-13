@@ -11,7 +11,3 @@
     display: flex !important;
     flex-direction: column;
 }
-
-.games {
-    grid-area: "games";
-}
