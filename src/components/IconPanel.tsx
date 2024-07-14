@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "../styles/IconPanel.css"
 
 interface Props {
-    icon_definition: any;
+    icon_definition?: any;
     children?: ReactNode
 }
 
