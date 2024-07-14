@@ -1,0 +1,88 @@
+.contact-us-wrapper {
+    background-color: #1E1E1E;
+}
+
+.contact-us {
+
+    display: grid;
+    grid-template-areas: "email form"
+        ".     form"
+        ".     form";
+
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+
+}
+
+.contact-us-wrapper form {
+    margin: 2rem;
+    grid-area: form;
+    padding-bottom: 5rem;
+}
+
+.contact-us-wrapper label {
+    color: white;
+}
+
+.form-group {
+    margin: 1rem;
+}
+
+.email-form,
+.subject-form {
+    width: 50% !important;
+}
+
+
+.email-information {
+    display: flex;
+    color: white;
+    margin: 2rem;
+    align-content: first baseline !important;
+}
+
+.email-icon {
+    max-height: 75px;
+    height: 75px;
+}
+
+.olympus-contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.olympus-contact-form .btn {
+    width: 50%;
+    align-self: center !important;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.email-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    /* position: absolute; */
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .contact-us {
+        grid-template-areas: "email"
+            "form"
+            "form";
+
+        grid-template-columns: 1fr;
+        grid-template-rows: 7.5rem auto;
+
+    }
+
+    .olympus-contact-form {
+        margin: 0rem !important;
+    }
+
+}

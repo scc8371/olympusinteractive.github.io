@@ -10,7 +10,7 @@ const Hero = () => {
                 <div className="hero-text">
                     <h1>We are Olympus Interactive</h1>
                     <h2>An Indie Studio Founded by RIT Graduates</h2>
-                    <Button>Join our Newsletter</Button>
+                    <Button>Keep Up With What We Do</Button>
                 </div>
                 <img src={assets["logo-pantheon"]}></img>            
             </>
