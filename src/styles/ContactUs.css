@@ -86,3 +86,9 @@
     }
 
 }
+
+@media screen and (max-width: 1200px) {
+    .email-wrapper h2{
+        font-size: 1.2rem;
+    }
+}
