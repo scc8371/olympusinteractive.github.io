@@ -5,13 +5,21 @@
 .contact-us {
 
     display: grid;
-    grid-template-areas: "email form"
+    grid-template-areas: 
+    "email form"
         ".     form"
         ".     form";
 
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto;
 
+}
+
+.contact-us-wrapper .headerGroup{
+    grid-area: header !important;
+    position: relative;
+    color: white;
+    margin-bottom: 5rem;
 }
 
 .contact-us-wrapper form {

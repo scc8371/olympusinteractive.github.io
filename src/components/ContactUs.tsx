@@ -3,11 +3,13 @@ import "../styles/ContactUs.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import Button from './Button';
+import Header from './Header';
 
 const ContactUs = () => {
     return (
         <>
             <div className="contact-us-wrapper">
+                <Header subtitle="">Contact Us</Header>
                 <div className="contact-us">
                     <div className="email-information">
                         <div className="email-wrapper">
@@ -31,7 +33,7 @@ const ContactUs = () => {
                         <Button>Send Message</Button>
                     </form>
 
-                    
+
                 </div>
             </div>
         </>

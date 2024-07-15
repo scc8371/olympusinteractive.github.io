@@ -6,22 +6,35 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
-.services-button{
+.services-button {
     justify-self: center;
 
     background-color: #1E1E1E;
 
     display: flex;
     justify-content: center;
+   
 }
 
-.services-button .btn{
+.services-button .btn {
     padding-left: 10rem;
     padding-right: 10rem;
     padding-top: .5rem;
     padding-bottom: .5rem;
 
     margin: 1rem;
+
+    margin-bottom: 3rem;
+}
+
+.services-header .headerGroup {
+    position: relative;
+    margin-bottom: 5rem !important;
+    color: white;
+}
+
+.services-header {
+    background-color: #1E1E1E;
 }
 
 @media screen and (max-width: 860px) {
@@ -29,12 +42,13 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .services-button .btn{
+    .services-button .btn {
         padding-left: 5rem;
         padding-right: 5rem;
         padding-top: .5rem;
         padding-bottom: .5rem;
-    
+
         margin: 1rem;
+        margin-bottom: 3rem;
     }
 }

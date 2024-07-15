@@ -32,6 +32,7 @@
     grid-area: img !important;
     max-width: 100%;
     max-height: 100%;
+    align-self: first baseline;
 }
 
 .about-us-desc .icon-panel {
@@ -41,7 +42,12 @@
     padding: 1.5rem !important;
 }
 
-.about-us .icon-panel-desc{
+.about-us-wrapper .headerGroup {
+    position: relative;
+    color: white;
+}
+
+.about-us .icon-panel-desc {
     font-size: 1.25rem;
 }
 
@@ -52,7 +58,7 @@
 @media screen and (max-width: 860px) {
     .about-us {
         grid-template-areas: "desc"
-                             "img";
+            "img";
 
         grid-template-columns: 1fr;
         grid-template-rows: auto;
@@ -62,7 +68,7 @@
         align-items: center;
     }
 
-    .about-us .icon-panel-desc{
+    .about-us .icon-panel-desc {
         font-size: 1rem;
     }
 
@@ -73,7 +79,7 @@
         max-height: auto;
         height: auto;
         width: auto;
-        padding: 0rem !important; 
+        padding: 0rem !important;
         margin: 1rem !important;
     }
 }
