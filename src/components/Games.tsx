@@ -7,7 +7,7 @@ import Header from "../components/Header"
 
 const Games = () => {
   return (
-    <div className="games">
+    <div className="games" id="games-section">
       <>
         <Header subtitle="Our Mythos">Games</Header>
 

@@ -47,6 +47,14 @@
     max-width: 100%;
 }
 
+#hero .panel-body {
+    grid-template-rows: 25vw auto;
+}
+
+#hero {
+    width: 50% !important;
+}
+
 .panel .btn {
     padding-right: 5vw;
     padding-left: 5vw;
@@ -92,25 +100,31 @@
     justify-self: center;
 }
 
-#display img {
-    max-width: 100;
-}
 
 #display .panel-body {
     grid-template-rows: auto !important;
 }
 
+.panel button {
+    padding: 0rem !important;
+}
+
 @media screen and (max-width: 860px) {
     #hero {
         max-width: 800px;
-        width: 80%;
+        width: 80% !important;
         justify-self: center;
     }
 
-    .panel-body{
+    #hero .panel-body {
         grid-template-rows: auto;
     }
-    .panel .button{
+
+    .panel-body {
+        grid-template-rows: auto;
+    }
+
+    .panel .button {
         justify-self: center;
         align-self: center !important;
     }
@@ -118,15 +132,11 @@
 
 @media screen and (max-width: 600px) {
 
-    #hero img{
-        max-height: 100% !important;
-    }
-
     .panel {
         padding-right: 1rem;
         padding-left: 1rem;
     }
-    
+
 
     .panel-body {
         grid-template-areas: "img img"

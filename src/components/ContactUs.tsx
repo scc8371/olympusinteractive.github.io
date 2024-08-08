@@ -8,7 +8,7 @@ import Header from './Header';
 const ContactUs = () => {
     return (
         <>
-            <div className="contact-us-wrapper">
+            <div className="contact-us-wrapper" id="contact-us-section">
                 <Header subtitle="">Contact Us</Header>
                 <div className="contact-us">
                     <div className="email-information">

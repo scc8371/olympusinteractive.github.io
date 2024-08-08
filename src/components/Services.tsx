@@ -1,4 +1,3 @@
-import React from 'react'
 import "../styles/Services.css";
 import IconPanel from "./IconPanel"
 import { faXTwitter, faInstagram, faDiscord, faYoutube } from "@fortawesome/free-brands-svg-icons";
@@ -8,7 +7,7 @@ import Header from "./Header"
 const Services = () => {
     return (
         <>
-            <div className="services-header">
+            <div className="services-header" id="services-section">
                 <Header subtitle='Open to Work'>Our Services</Header>
             </div>
             <div className="services">

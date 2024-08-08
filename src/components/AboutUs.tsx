@@ -12,7 +12,7 @@ interface Props {
 const AboutUs: React.FC<Props> = ({ children, imgLink }) => {
     return (
         <>
-            <div className="about-us-wrapper">
+            <div className="about-us-wrapper" id="about-us-section">
                 <Header subtitle='Our Pantheon'>About Us</Header>
                 <div className="about-us">
                     <div className="about-us-desc">

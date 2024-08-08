@@ -7,7 +7,7 @@ import Header from "../components/Header"
 
 const Profiles = () => {
   return (
-    <div className="profiles">
+    <div className="profiles" id="profiles-section">
       <>
         <Header subtitle="The Olympians">Team</Header>
 
