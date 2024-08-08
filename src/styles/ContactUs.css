@@ -5,8 +5,8 @@
 .contact-us {
 
     display: grid;
-    grid-template-areas: 
-    "email form"
+    grid-template-areas:
+        "email form"
         ".     form"
         ".     form";
 
@@ -15,7 +15,7 @@
 
 }
 
-.contact-us-wrapper .headerGroup{
+.contact-us-wrapper .headerGroup {
     grid-area: header !important;
     position: relative;
     color: white;
@@ -96,7 +96,26 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .email-wrapper h2{
+    .email-wrapper h2 {
         font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .email-icon {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .email-information{ 
+        margin: 1rem;
+    }
+
+    .contact-us{
+        grid-template-rows: 3rem auto;
+    }
+
+    .contact-us-wrapper .headerGroup{
+        margin-bottom: 1rem;
     }
 }
