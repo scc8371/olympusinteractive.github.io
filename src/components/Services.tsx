@@ -19,7 +19,7 @@ const Services = () => {
 
             </div>
 
-            <div className="services-button"><Button>Contact Us!</Button></div>
+            <div className="services-button"><Button link="">Contact Us!</Button></div>
 
         </>
     )

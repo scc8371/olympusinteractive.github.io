@@ -16,9 +16,9 @@
    
 }
 
-.services-button .btn {
-    padding-left: 10rem;
-    padding-right: 10rem;
+.services-button a {
+    padding-left: 3rem;
+    padding-right: 3rem;
     padding-top: .5rem;
     padding-bottom: .5rem;
 
@@ -26,6 +26,7 @@
 
     margin-bottom: 3rem;
 }
+
 
 .services-header .headerGroup {
     position: relative;

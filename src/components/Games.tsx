@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "../styles/Games.css"
 import assets from "../assets"
 import Button from "../components/Button"
 import Panel from "../components/Panel"
 import Header from "../components/Header"
+
+import projects from "../projects"
 
 const Games = () => {
   return (
@@ -11,13 +13,41 @@ const Games = () => {
       <>
         <Header subtitle="Our Mythos">Games</Header>
 
-        <Panel imageSource={assets["logo-no-background"]} title="Ninjas on Trampolines" dates="August 2023 - Present" tag="hero" buttonText='Learn More!'>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</Panel>
+        {
+          projects.projects.map(p => {
+            if (p.hero == true) {
+              return <Panel
+                key={p.name}
+                imageSource={p.image}
+                title={p.name}
+                dates={p.dates}
+                tag="hero"
+                buttonText="Learn More!"
+                link={p.link}>
+                {p.desc}
+              </Panel>
+            }
+          })
+        }
 
         <div className="games-showcase">
-          <Panel imageSource={assets["logo-no-background"]} title="Ninjas on Trampolines" dates="August 2023 - Present" tag="display" buttonText='Learn More!'>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</Panel>
-          <Panel imageSource={assets["logo-no-background"]} title="Ninjas on Trampolines" dates="August 2023 - Present" tag="display" buttonText='Learn More!'>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</Panel>
-          <Panel imageSource={assets["logo-no-background"]} title="Ninjas on Trampolines" dates="August 2023 - Present" tag="display" buttonText='Learn More!'>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</Panel>
-
+          <>
+            {
+              projects.projects.map(p => {
+                if (p.hero == false) {
+                  return <Panel
+                    key={p.name}
+                    imageSource={p.image}
+                    title={p.name}
+                    dates={p.dates}
+                    tag="display"
+                    buttonText="Learn More!">
+                    {p.desc}
+                  </Panel>
+                }
+              })
+            }
+          </>
         </div>
       </>
     </div>

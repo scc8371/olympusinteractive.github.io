@@ -30,7 +30,7 @@ const ContactUs = () => {
                             <textarea className="form-control" id="textarea" rows={5} placeholder="Email Body"></textarea>
                         </div>
 
-                        <Button>Send Message</Button>
+                        <Button link="">Send Message</Button>
                     </form>
 
 

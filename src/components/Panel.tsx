@@ -10,29 +10,31 @@ interface Props {
     dates?: string,
     children?: string,
     buttonText?: string,
-    tag?: string
+    tag?: string,
+    link?: string
 }
 
 
 
-const Panel: React.FC<Props> = ({ imageSource, imageAlt, children, tag, title, dates, buttonText }) => {
+const Panel: React.FC<Props> = ({ imageSource, imageAlt, children, tag, title, dates, buttonText, link }) => {
 
     const [buttonVisibility, setButtonVisibility] = useState(false);
-    if((buttonText != undefined) && buttonVisibility !== true){
+    if ((buttonText != undefined) && buttonVisibility !== true) {
         setButtonVisibility(true);
-    } 
+    }
 
     return (
         <>
             <div className="panel panel-default" id={tag}>
                 <div className="panel-body">
                     <img src={imageSource} alt={imageAlt}></img>
+
                     <div className="panel-info">
                         <h2 className="panel-title">{title}</h2>
                         <h2 className="panel-dates">{dates}</h2>
                     </div>
                     <p className="panel-desc">{children}</p>
-                    {buttonVisibility && <Button>{buttonText}</Button>}
+                    {buttonVisibility && <Button link={link ? link : ""}>{buttonText}</Button>}
                 </div>
             </div>
         </>

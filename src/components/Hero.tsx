@@ -8,11 +8,11 @@ const Hero = () => {
         <div className="hero">
             <>
                 <div className="hero-text">
-                    <h1>We are Olympus Interactive</h1>
+                    <img src={assets['logo-no-background']} id="c-logo"></img>
                     <h2>An Indie Studio Founded by RIT Graduates</h2>
-                    <Button>Placeholder</Button>
+                    <Button link="">Placeholder</Button>
                 </div>
-                <img src={assets["logo-pantheon"]}></img>            
+                <img id="pantheon" src={assets["logo-pantheon"]}></img>            
             </>
         </div>
     )

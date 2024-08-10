@@ -59,7 +59,7 @@
     flex-direction: column;
 }
 
-.olympus-contact-form .btn {
+.olympus-contact-form a {
     width: 50%;
     align-self: center !important;
     margin-top: 0.5rem;
@@ -117,5 +117,9 @@
 
     .contact-us-wrapper .headerGroup{
         margin-bottom: 1rem;
+    }
+
+    .olympus-contact-form a{
+        width: 75%;
     }
 }

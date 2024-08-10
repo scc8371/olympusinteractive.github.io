@@ -25,7 +25,7 @@
 }
 
 .footer-brand {
-    max-width: 150px;
+    max-width: 150px !important;
     margin-bottom: 0rem;
     justify-self: center !important;
     align-self: center !important;
