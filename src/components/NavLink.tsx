@@ -10,7 +10,10 @@ interface LinkProps {
 const NavLink: React.FC<LinkProps> = ({ children, link }) => {
     return (
         <li className="nav-item">
-            <a className="nav-link" href={link}>{children}</a>
+            <a className="nav-link" href={link} onClick={() => {
+                let navbarMarkup: any = document.querySelector("#navbarNavAltMarkup");
+                navbarMarkup.classList.remove("show");
+            }}>{children}</a>
         </li>);
 }
 

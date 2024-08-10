@@ -3,6 +3,7 @@ import "../styles/Hero.css"
 import assets from "../assets"
 import Button from "../components/Button"
 
+
 const Hero = () => {
     return (
         <div className="hero">
@@ -10,7 +11,7 @@ const Hero = () => {
                 <div className="hero-text">
                     <img src={assets['logo-no-background']} id="c-logo"></img>
                     <h2>An Indie Studio Founded by RIT Graduates</h2>
-                    <Button link="">Placeholder</Button>
+                    <Button link="#contact-us-section">Contact Us!</Button>
                 </div>
                 <img id="pantheon" src={assets["logo-pantheon"]}></img>            
             </>

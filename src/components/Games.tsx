@@ -1,11 +1,8 @@
-import React, { useState } from 'react'
 import "../styles/Games.css"
-import assets from "../assets"
-import Button from "../components/Button"
 import Panel from "../components/Panel"
 import Header from "../components/Header"
 
-import projects from "../projects"
+import data from "../data.ts"
 
 const Games = () => {
   return (
@@ -14,7 +11,7 @@ const Games = () => {
         <Header subtitle="Our Mythos">Games</Header>
 
         {
-          projects.projects.map(p => {
+          data.projects.map(p => {
             if (p.hero == true) {
               return <Panel
                 key={p.name}
@@ -33,7 +30,7 @@ const Games = () => {
         <div className="games-showcase">
           <>
             {
-              projects.projects.map(p => {
+              data.projects.map(p => {
                 if (p.hero == false) {
                   return <Panel
                     key={p.name}

@@ -11,7 +11,7 @@ const Services = () => {
                 <Header subtitle='Open to Work'>Our Services</Header>
             </div>
             <div className="services">
-                <IconPanel icon_definition={faXTwitter}>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</IconPanel>
+                <IconPanel icon_definition={faXTwitter}>Fast Software and Game Prototyping</IconPanel>
                 <IconPanel icon_definition={faXTwitter}>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</IconPanel>
                 <IconPanel icon_definition={faXTwitter}>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</IconPanel>
                 <IconPanel icon_definition={faXTwitter}>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</IconPanel>

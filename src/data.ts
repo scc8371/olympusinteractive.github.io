@@ -1,4 +1,5 @@
 import logo from './assets/logos/olympus.png'
+import assets from "./assets.ts"
 
 export default {
     "projects": [
@@ -6,7 +7,7 @@ export default {
             "name": "Ninjas on Trampolines",
             "desc": "temp description",
             "dates": "August 2023 - Present",
-            "image": "https://via.placeholder.com/1920x1080",
+            "image": assets['ninjas-gif'],
             "link": "https://store.steampowered.com/app/2893990/Ninjas_on_Trampolines/",
             "hero": true
         },
@@ -17,6 +18,13 @@ export default {
             "image": "https://via.placeholder.com/1920x1080",
             "link": ".",
             "hero": false
+        }
+    ],
+    "team": [
+        {
+            "name": "Bob Joe Shmoe",
+            "role": "Yapper",
+            "portrait": logo
         }
     ]
 };
