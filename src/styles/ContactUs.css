@@ -76,6 +76,19 @@
     /* position: absolute; */
 }
 
+.swal2-actions .swal2-confirm {
+    background-color: #1E1E1E !important;
+    color: white !important;
+}
+
+.contact-us-wrapper a{
+    color: white;
+}
+
+.contact-us-wrapper a:hover{
+    color: #6e6e6e;
+}
+
 
 @media screen and (max-width: 1200px) {
 
@@ -107,19 +120,19 @@
         position: absolute;
     }
 
-    .email-information{ 
+    .email-information {
         margin: 1rem;
     }
 
-    .contact-us{
+    .contact-us {
         grid-template-rows: 3rem auto;
     }
 
-    .contact-us-wrapper .headerGroup{
+    .contact-us-wrapper .headerGroup {
         margin-bottom: 1rem;
     }
 
-    .olympus-contact-form a{
+    .olympus-contact-form a {
         width: 75%;
     }
 }
