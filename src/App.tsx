@@ -10,7 +10,6 @@ import Footer from "./components/Footer";
 import IconButton from "./components/IconButton"
 
 import assets from "./assets"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXTwitter, faInstagram, faDiscord, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 

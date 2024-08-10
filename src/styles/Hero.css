@@ -18,6 +18,20 @@
     width: 100%;
 }
 
+.hero .footer-logos{
+    margin-top: 1rem;
+}
+
+.hero .footer-logos * {
+    margin-right: .5rem;
+    margin-left: .5rem;
+    color: white;
+}
+
+.hero .footer-brand{
+    border: 1px solid red;
+}
+
 .hero .hero-text {
     align-self: center;
     text-align: center;
