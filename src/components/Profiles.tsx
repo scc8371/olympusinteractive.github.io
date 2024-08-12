@@ -4,21 +4,21 @@ import assets from "../assets"
 import Button from "../components/Button"
 import Panel from "../components/Panel"
 import Header from "../components/Header"
+import data from "../data.ts"
 
 const Profiles = () => {
   return (
     <div className="profiles" id="profiles-section">
       <>
+
         <Header subtitle="The Olympians">Team</Header>
 
         <div className="team-showcase">
-          <Panel imageSource={"https://placehold.co/700x750"} title="Justin Looman" tag="display">Team Lead / UI Design</Panel>
-          <Panel imageSource={"https://placehold.co/700x750"} title="Sami Chamberlain" tag="display">Lead Programmer</Panel>
-          <Panel imageSource={"https://placehold.co/700x750"} title="William Jeon" tag="display">Technical Artist</Panel>
-          <Panel imageSource={"https://placehold.co/700x750"} title="Iain Roach" tag="display">Programmer / Game Designer</Panel>
-          <Panel imageSource={"https://placehold.co/700x750"} title="Kai Stone" tag="display">2D / 3D Artist</Panel>
-          <Panel imageSource={"https://placehold.co/700x750"} title="Claire Wang" tag="display">2D Artist</Panel>
-          <Panel imageSource={"https://placehold.co/700x750"} title="Trevor Strickland" tag="display">Audio Designer</Panel>
+          {
+            data.team.map(member => {
+              return <Panel imageSource={member.portrait} title={member.name} tag="display">{member.role}</Panel>
+            })
+          }
         </div>
       </>
     </div>

@@ -25,6 +25,16 @@ export default {
             "name": "Bob Joe Shmoe",
             "role": "Yapper",
             "portrait": logo
+        },
+        {
+            "name": "Bob Joe Shmoe",
+            "role": "Yapper",
+            "portrait": logo
+        },
+        {
+            "name": "Bob Joe Shmoe",
+            "role": "Yapper",
+            "portrait": logo
         }
     ]
 };

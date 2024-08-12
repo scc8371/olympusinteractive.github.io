@@ -7,14 +7,17 @@
 
     display: grid;
     padding-top: 12%;
+
 }
 
 .team-showcase {
-    grid-area: display;
+
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+    min-width: 100% !important;
 }
 
 .team-showcase .panel{

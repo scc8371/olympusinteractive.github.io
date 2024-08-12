@@ -1,21 +1,19 @@
 import React, { ReactNode } from 'react'
 import "../styles/Footer.css"
+import IconList from './IconList'
 
 interface Props {
   logoLink: string
-  children?: ReactNode
 }
 
-const Footer: React.FC<Props> = ({ logoLink, children }) => {
+const Footer: React.FC<Props> = ({ logoLink }) => {
   return (
     <>
       <div className="footer">
         <div className="panel panel-default">
           <div className="panel-body">
             <img className="footer-brand" src={logoLink}></img>
-            <div className="footer-logos">
-              {children}
-            </div>
+            <IconList></IconList>
           </div>
         </div>
       </div>
