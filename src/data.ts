@@ -22,19 +22,39 @@ export default {
     ],
     "team": [
         {
-            "name": "Bob Joe Shmoe",
-            "role": "Yapper",
-            "portrait": logo
+            "name": "Justin Looman",
+            "role": "Producer",
+            "portrait": assets['placeholder-person']
         },
         {
-            "name": "Bob Joe Shmoe",
-            "role": "Yapper",
-            "portrait": logo
+            "name": "Sami Chamberlain",
+            "role": "Lead Programmer",
+            "portrait": assets['placeholder-person']
         },
         {
-            "name": "Bob Joe Shmoe",
-            "role": "Yapper",
-            "portrait": logo
+            "name": "William Jeon",
+            "role": "Technical Artist",
+            "portrait": assets['placeholder-person']
+        },
+        {
+            "name": "Iain Roach",
+            "role": "Programmer",
+            "portrait": assets['placeholder-person']
+        },
+        {
+            "name": "Kai Stone",
+            "role": "3D / 2D Artist",
+            "portrait": assets['placeholder-person']
+        },
+        {
+            "name": "Claire Wang",
+            "role": "2D Artist",
+            "portrait": assets['placeholder-person']
+        },
+        {
+            "name": "Trevor Strickland",
+            "role": "Audio Designer",
+            "portrait": assets['placeholder-person']
         }
     ]
 };

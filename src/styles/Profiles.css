@@ -6,7 +6,7 @@
     height: 100%;
 
     display: grid;
-    padding-top: 12%;
+    padding-top: 8%;
 
 }
 
@@ -44,10 +44,17 @@
     background-color: rgba(0, 0, 0, 0);
 }
 
+@media screen and (max-width: 1600px){
+    .profiles{
+        padding-top: 10%;
+    }
+}
+
 
 @media screen and (max-width: 1200px){
     .profiles{
-        grid-template-rows: 50px auto;
+        grid-template-rows: 100px auto;
+        padding-top: 6%;
     }
 }
 
@@ -68,5 +75,6 @@
 
     .profiles{
         grid-template-rows: 150px auto;
+        padding-top: 0%;
     }
 }
