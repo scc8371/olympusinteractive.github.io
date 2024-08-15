@@ -70,7 +70,7 @@ const ContactUs = () => {
 
                         <input type="checkbox" name="botcheck" className="hidden" style={{ display: 'none', position: 'absolute' }}></input>
 
-                        <Button link="" displayType='btn-light'>Send Message</Button>
+                        <Button link="">Send Message</Button>
                     </form>
 
 

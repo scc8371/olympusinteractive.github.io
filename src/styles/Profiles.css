@@ -21,16 +21,26 @@
 }
 
 .team-showcase .panel{
-    max-width: 335px !important;
+    max-width: 300px !important;
     justify-content: center;
     
     white-space: pre-wrap;
     word-break: break-word;
+    
+    padding-bottom: 1rem !important;
 
 }
 
 .team-showcase .panel .panel-title{
-    font-size: 1.4rem !important;
+    font-size: 1.2rem !important;
+
+    margin: 0rem !important;
+    padding: 0rem !important;
+}
+
+.team-showcase .panel .panel-desc{
+    padding-top: .2rem;
+    color: #9e0000;
 }
 
 .team-showcase .panel-dates{

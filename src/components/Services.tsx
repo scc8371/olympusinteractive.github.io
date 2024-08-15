@@ -19,7 +19,7 @@ const Services = () => {
 
             </div>
 
-            <div className="services-button"><Button link="#contact-us-section" displayType="btn-light">Contact Us!</Button></div>
+            <div className="services-button"><Button link="#contact-us-section">Contact Us!</Button></div>
 
         </>
     )
