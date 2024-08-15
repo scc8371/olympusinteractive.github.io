@@ -1,5 +1,10 @@
 .about-us-wrapper {
     background-color: #CD7F7F;
+
+    background-image: url("../assets/bgs/pink-bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .about-us {
@@ -17,6 +22,8 @@
     gap: 25px;
 
     align-items: Center;
+
+    
 }
 
 .about-us-desc {
