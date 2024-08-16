@@ -1,5 +1,8 @@
 .contact-us-wrapper {
     background-color: #1E1E1E;
+
+    background-image: url("../assets/bgs/site-bg.webp");
+    background-repeat: repeat;
 }
 
 .contact-us {
