@@ -1,26 +1,27 @@
-import "../styles/Services.css";
+import "../styles/Services.css"
 import IconPanel from "./IconPanel"
-import { faXTwitter, faInstagram, faDiscord, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faGamepad, faCode, faPen, faPaintbrush } from "@fortawesome/free-solid-svg-icons"
 import Button from "./Button"
 import Header from "./Header"
 
 const Services = () => {
     return (
         <>
-            <div className="services-header" id="services-section">
-                <Header subtitle='Open to Work'>Our Services</Header>
+            <div id="services-wrapper">
+
+
+                <div className="services-header" id="services-section">
+                    <Header subtitle='Open to Work'>Our Services</Header>
+                </div>
+                <div className="services">
+                    <IconPanel icon_definition={faGamepad} icon_title="Fast Software and Game Prototyping">We have many years of experience developing successful prototypes for gaming projects.</IconPanel>
+                    <IconPanel icon_definition={faCode} icon_title="Programming Assistance">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic perferendis harum sed illo, eius voluptate sunt esse eligendi praesentium doloremque!</IconPanel>
+                    <IconPanel icon_definition={faPen} icon_title="Design Assistance">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta porro consequuntur, quasi praesentium libero quam temporibus voluptas deleniti minus. Quo?</IconPanel>
+                    <IconPanel icon_definition={faPaintbrush} icon_title="Art, Music, and Asset Creation">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum perspiciatis rem harum, possimus explicabo sunt culpa molestias vel beatae cum!</IconPanel>
+                </div>
+
+                <div className="services-button"><Button link="#contact-us-section">Contact Us!</Button></div>
             </div>
-            <div className="services">
-                <IconPanel icon_definition={faXTwitter}>Fast Software and Game Prototyping</IconPanel>
-                <IconPanel icon_definition={faXTwitter}>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</IconPanel>
-                <IconPanel icon_definition={faXTwitter}>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</IconPanel>
-                <IconPanel icon_definition={faXTwitter}>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</IconPanel>
-
-
-            </div>
-
-            <div className="services-button"><Button link="#contact-us-section">Contact Us!</Button></div>
-
         </>
     )
 }

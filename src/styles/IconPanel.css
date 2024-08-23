@@ -1,31 +1,96 @@
-.icon-panel{
-    padding: 0.25rem !important;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+.icon-panel {
+    padding: 0rem !important;
 }
 
-.icon-panel-body{
-    max-height: 100% !important;
+.icon-panel-body {
     height: 100%;
     display: flex;
     align-items: center;
 
     margin: 0rem !important;
     padding: 0rem !important;
+
+    padding: 0rem !important;
+
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
-.icon-panel-body .panel-icon{
-    max-width: 150px !important; 
-    max-height: 150px !important;
-    width: 5rem;
-    height: 5rem;
-    border: 2px solid black;
-    border-radius: 10px;
-    margin: .5rem;
+.icon-panel-body .panel-icon {
+    max-width: 175px !important;
+    max-height: 175px !important;
+    width: 100rem !important;
+    height: 100rem !important;
+
+    opacity: 0.2;
+    align-self: center !important;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    transform: rotate(15deg);
 }
 
-.icon-panel-desc{
-    font-size: 1.5rem;
+.icon-panel-desc {
+    font-size: 1.1rem;
 
-    word-break: break-all;
+    /* word-break: break-all; */
+    word-break: keep-all;
     white-space: normal;
     align-self: center;
+    padding-left: 1rem;
+
+    font-family: 'Inter';
+    align-self: first baseline !important;
+}
+
+#icon-panel-body-w-padding {
+    display: flex;
+    flex-direction: column;
+    min-height: 100% !important;
+
+}
+
+#icon-panel-title {
+    text-align: start;
+    padding: 1rem;
+    padding-bottom: 0rem;
+    text-decoration: underline;
+
+    font-size: 1.8rem;
+
+    font-family: 'Cinzel';
+}
+
+@media screen and (max-width: 600px) {
+    .icon-panel-body {
+        grid-template-areas: "icon title"
+            "text text" !important;
+    }
+
+    .icon-panel-body .panel-icon {
+        max-width: 150px !important;
+        max-height: 150px !important;
+        width: 4rem;
+        height: 4rem;
+
+        opacity: 0.7;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .icon-panel-body {
+        flex-direction: column-reverse;
+    }
+
+    #icon-panel-body-w-padding {
+        display: flex;
+        flex-direction: column;
+        min-height: 100% !important;
+        padding-right: 1rem;
+        min-height: auto !important;
+
+    }
 }

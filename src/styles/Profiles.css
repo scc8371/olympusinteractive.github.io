@@ -7,12 +7,6 @@
 
     display: grid;
     padding-top: 8%;
-    
-    background-image: url("../assets/bgs/pink-bg.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
 }
 
 .team-showcase {

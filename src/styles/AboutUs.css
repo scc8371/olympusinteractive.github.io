@@ -1,10 +1,5 @@
 .about-us-wrapper {
     background-color: #CD7F7F;
-
-    background-image: url("../assets/bgs/pink-bg.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .about-us {
@@ -31,7 +26,7 @@
     width: 100%;
     justify-self: center !important;
     grid-area: desc;
-
+    
 }
 
 .about-us-img {
@@ -58,11 +53,7 @@
     font-size: 1.25rem;
 }
 
-.about-us-desc .icon-panel .panel-body {
-    display: block;
-}
-
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 1100px) {
     .about-us {
         grid-template-areas: "desc"
             "img";
@@ -88,5 +79,10 @@
         width: auto;
         padding: 0rem !important;
         margin: 1rem !important;
+    }
+
+    .about-us .panel{
+
+        margin: 0rem !important;
     }
 }

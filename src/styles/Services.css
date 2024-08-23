@@ -1,17 +1,12 @@
 .services {
-    background-color: #1E1E1E;
 
     display: grid;
 
     grid-template-columns: repeat(2, 1fr);
-
-    
 }
 
 .services-button {
     justify-self: center;
-
-    background-color: #1E1E1E;
 
     display: flex;
     justify-content: center;
@@ -29,8 +24,10 @@
     color: white;
 }
 
-.services-header {
+#services-wrapper {
     background-color: #1E1E1E;
+    background-image: url("../assets/bgs/site-bg.webp");
+    background-repeat: repeat;
 }
 
 @media screen and (max-width: 860px) {
@@ -39,7 +36,7 @@
     }
 }
 
-body{
+body {
     background-image: url("../assets/bgs/site-bg.webp");
     background-repeat: repeat;
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import "../styles/AboutUs.css"
 import IconPanel from "./IconPanel"
+import Panel from "./Panel"
 import Header from "./Header"
 
 interface Props {
@@ -16,7 +17,7 @@ const AboutUs: React.FC<Props> = ({ children, imgLink }) => {
                 <Header subtitle='Our Pantheon'>About Us</Header>
                 <div className="about-us">
                     <div className="about-us-desc">
-                        <IconPanel>{children}</IconPanel>
+                        <Panel title="OUR TESTIMENT">{children}</Panel>
                     </div>
                     <img className="about-us-img" src={imgLink}>
                     </img>

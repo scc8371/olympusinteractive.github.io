@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 .panel {
     margin: 0rem !important;
@@ -8,7 +9,7 @@
     padding-left: 3rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    box-shadow: 8px 8px 10px #494949;
+    box-shadow: 8px 8px 0 #49494952;
     margin: 3rem !important;
     margin-top: 1rem !important;
     margin-bottom: 3rem !important;
@@ -81,6 +82,8 @@
     white-space: normal;
     padding: 0.5rem;
     padding-left: 0rem;
+
+    font-family: 'Inter';
 }
 
 .panel-body #img-wrapper {
