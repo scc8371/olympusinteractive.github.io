@@ -7,9 +7,13 @@
     height: 100%;
     display: grid !important;
     grid-template-areas: "cta hero-image"
-                        "cta hero-image";
+        "cta hero-image";
     grid-template-columns: 45% 55%;
     grid-template-rows: 2fr 1fr;
+
+    background: #cd7f7f;
+    background: -webkit-linear-gradient(102deg, #cd7f7f 0%, #ffaaaa 100%);
+    background: linear-gradient(102deg, #cd7f7f 0%, #ffaaaa 100%);
 
 }
 
@@ -19,7 +23,7 @@
     width: 100%;
 }
 
-.hero .footer-logos{
+.hero .footer-logos {
     margin-top: 1rem;
 }
 
@@ -37,7 +41,7 @@
     color: #FFFFFF;
     font-family: "Cinzel", serif;
     margin-left: 1rem;
-    max-height: 100vh;   
+    max-height: 100vh;
     z-index: 1;
 
     display: flex;
@@ -46,7 +50,7 @@
 
 }
 
-.hero h2{
+.hero h2 {
     font-size: 1.5rem;
     font-weight: bolder;
 
@@ -54,18 +58,18 @@
     padding-left: 2rem;
 }
 
-.hero #c-logo{
+.hero #c-logo {
     width: 66%;
     padding-bottom: .5rem;
     align-self: center;
 }
 
-.hero #btn-link{
+.hero #btn-link {
     width: 50% !important;
     align-self: center !important;
 }
 
-.hero button{
+.hero button {
     padding-right: 5rem;
     padding-left: 5rem;
     font-family: "Inter", sans-serif;
@@ -74,26 +78,26 @@
 
 }
 
-@media screen and (max-width: 1300px){
-    .hero .hero-text{
+@media screen and (max-width: 1300px) {
+    .hero .hero-text {
         margin-top: 3rem;
         margin-bottom: 0rem !important;
     }
 
-    .hero h2{
+    .hero h2 {
         font-size: 1rem;
     }
 
-    .hero h1{
+    .hero h1 {
         font-size: 2rem;
     }
 
-    .hero button{
+    .hero button {
         margin-top: 25px;
     }
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 750px) {
     .hero {
 
         grid-area: hero;
@@ -102,14 +106,14 @@
         height: 100%;
         display: grid;
         grid-template-areas: "cta"
-                            "hero-image";
+            "hero-image";
         grid-template-columns: auto;
         grid-template-rows: auto;
     }
 
-    .hero .hero-text{
+    .hero .hero-text {
         margin-top: 10rem;
         margin-left: 0rem;
     }
-    
+
 }

@@ -1,5 +1,8 @@
 .about-us-wrapper {
     background-color: #CD7F7F;
+    background: #cd7f7f;
+    background: -webkit-linear-gradient(250deg, #cd7f7f 0%, #e6a4a4 100%);
+    background: linear-gradient(250deg, #cd7f7f 0%, #e6a4a4 100%);
 }
 
 .about-us {
@@ -18,7 +21,7 @@
 
     align-items: Center;
 
-    
+
 }
 
 .about-us-desc {
@@ -26,7 +29,7 @@
     width: 100%;
     justify-self: center !important;
     grid-area: desc;
-    
+
 }
 
 .about-us-img {
@@ -51,6 +54,15 @@
 
 .about-us .icon-panel-desc {
     font-size: 1.25rem;
+}
+
+.about-us .panel {
+
+    margin: 0rem !important;
+}
+
+.about-us img {
+    box-shadow: 8px 8px 0 #49494952;
 }
 
 @media screen and (max-width: 1100px) {
@@ -81,7 +93,7 @@
         margin: 1rem !important;
     }
 
-    .about-us .panel{
+    .about-us .panel {
 
         margin: 0rem !important;
     }

@@ -29,12 +29,12 @@ export default {
         {
             "name": "Sami Chamberlain",
             "role": "Lead Programmer",
-            "portrait": assets['placeholder-person']
+            "portrait": assets['sami-image']
         },
         {
             "name": "William Jeon",
             "role": "Technical Artist",
-            "portrait": assets['placeholder-person']
+            "portrait": assets['will-image']
         },
         {
             "name": "Iain Roach",
