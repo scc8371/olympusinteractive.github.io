@@ -18,7 +18,7 @@ const App = () => {
       <Navbar imageLink={assets["logo-no-background"]}>
         <NavLink link={"#games-section"}>Games</NavLink>
         <NavLink link={"#profiles-section"}>Team</NavLink>
-        <NavLink link={"#services-section"}>Services</NavLink>
+        <NavLink link={"#services-wrapper"}>Services</NavLink>
         <NavLink link={"#about-us-section"}>About</NavLink>
         <NavLink link={"#contact-us-section"}>Contact</NavLink>
       </Navbar>

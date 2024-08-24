@@ -3,4 +3,10 @@
     height: 30px !important;
     margin-left: 0.5rem !important;
     margin-right: 0.5rem;
+
+    transition: all 0.3s ease;
+}
+
+.footer-icon:hover{
+    transform: scale(1.5);
 }

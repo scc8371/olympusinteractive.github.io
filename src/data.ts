@@ -1,5 +1,5 @@
-import logo from './assets/logos/olympus.png'
 import assets from "./assets.ts"
+import { faXTwitter, faInstagram, faDiscord, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 export default {
     "projects": [
@@ -24,7 +24,7 @@ export default {
         {
             "name": "Justin Looman",
             "role": "Producer",
-            "portrait": assets['placeholder-person']
+            "portrait": assets['justin-image']
         },
         {
             "name": "Sami Chamberlain",
@@ -39,7 +39,7 @@ export default {
         {
             "name": "Iain Roach",
             "role": "Programmer",
-            "portrait": assets['placeholder-person']
+            "portrait": assets['iain-image']
         },
         {
             "name": "Kai Stone",
@@ -56,5 +56,11 @@ export default {
             "role": "Audio Designer",
             "portrait": assets['placeholder-person']
         }
-    ]
+    ],
+    "socialIcons" : [
+        { link: 'https://x.com/olympusinteract', icon_definition: faXTwitter },
+        { link: 'https://www.instagram.com/invites/contact/?igsh=cdbzbtkpqup9&utm_content=vjpjm40', icon_definition: faInstagram },
+        { link: 'https://discord.gg/DgFe8qdCYG', icon_definition: faDiscord },
+        { link: 'https://www.youtube.com/@OlympusInteractive', icon_definition: faYoutube }
+      ]
 };

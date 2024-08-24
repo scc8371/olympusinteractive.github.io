@@ -6,6 +6,8 @@ import placeholder_person from "./assets/placeholder/person_placeholder.png"
 import team_image from "./assets/profile-img/team.jpg"
 import will_img from "./assets/profile-img/will.jpg"
 import sami_img from "./assets/profile-img/sami.jpg"
+import iain_img from "./assets/profile-img/iain.jpg"
+import justin_img from "./assets/profile-img/justin.jpg"
 
 export default {
     "logo" : logo,
@@ -15,5 +17,7 @@ export default {
     "placeholder-person": placeholder_person,
     "team-image": team_image,
     "will-image": will_img,
-    "sami-image": sami_img
+    "sami-image": sami_img,
+    "iain-image": iain_img,
+    "justin-image": justin_img
 };

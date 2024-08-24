@@ -35,3 +35,7 @@
     display: flex;
     justify-content: center;
 }
+
+.footer-panel:hover{
+    transform: scale(1.0) !important;
+}

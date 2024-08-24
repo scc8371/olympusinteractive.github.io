@@ -29,9 +29,15 @@ const Panel: React.FC<Props> = ({ imageSource, imageAlt, children, tag, title, d
         setImageVisibility(true);
     }
 
+    const handleClick = () => {
+        if (link) {
+            window.location.href = link;
+        }
+    }
+
     return (
         <>
-            <div className="panel panel-default" id={tag}>
+            <div className={`panel panel-default ${link ? 'clickable' : ''}`} id={tag} onClick={handleClick}>
                 <div className="panel-body">
 
                     {imageVisibility && <img src={imageSource} alt={imageAlt}></img>}

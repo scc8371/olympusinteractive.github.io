@@ -14,6 +14,8 @@
     margin-top: 1rem !important;
     margin-bottom: 3rem !important;
 
+    transition: all 0.3s ease;
+
 }
 
 .panel-body {
@@ -25,6 +27,13 @@
 
     grid-template-columns: auto;
     grid-template-rows: auto auto !important;
+
+}
+
+.panel:hover {
+
+    transform: scale(1.05);
+    box-shadow: 16px 16px 2px #49494952;
 }
 
 .panel-body img {
@@ -37,6 +46,10 @@
     max-width: 100%;
     background-color: #1E1E1E;
     padding: 1rem;
+}
+
+.clickable:hover{
+    cursor: pointer !important;
 }
 
 
@@ -113,16 +126,16 @@
 }
 
 .panel-body #btn-panel {
-    
+
     min-width: 100% !important;
     padding-left: 0rem !important;
     padding-right: 0rem !important;
 }
 
-.panel-body #btn-link{
+.panel-body #btn-link {
     grid-area: btn;
     justify-self: center !important;
-    
+
     margin: 0 !important;
     padding: 0 !important;
     width: 100% !important;
