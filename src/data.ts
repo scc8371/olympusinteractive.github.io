@@ -5,18 +5,42 @@ export default {
     "projects": [
         {
             "name": "Ninjas on Trampolines",
-            "desc": "temp description",
+            "desc": "A 2-4 player platform fighter where players paint their enemies into the stage.",
             "dates": "August 2023 - Present",
             "image": assets['ninjas-gif'],
             "link": "https://store.steampowered.com/app/2893990/Ninjas_on_Trampolines/",
             "hero": true
         },
         {
-            "name": "project2",
-            "desc": "desc2",
-            "dates": "dates2",
-            "image": "https://via.placeholder.com/1920x1080",
-            "link": ".",
+            "name": "Nebulicious",
+            "desc": "Made for Society of Play's Hexcode Jam 3. A cooking game where you drive a UFO around a planet to get resources.",
+            "dates": "January 2024",
+            "image": assets['nebulicious-gif'],
+            "link": "https://willyjeon.itch.io/nebulicious",
+            "hero": false
+        },
+        {
+            "name": "Helpless",
+            "desc": "Made for Pirate Software Jam 14. An experience taking inspiration from the artpiece 'Can't Help Myself'.",
+            "dates": "January 2024",
+            "image": assets['helpless-gif'],
+            "link": "https://ifaicgu.itch.io/helpless",
+            "hero": false
+        },
+        {
+            "name": "Icarus VR",
+            "desc": "A virtual reality archery simulation with fast-paced motions.",
+            "dates": "March 2023 - May 2023",
+            "image": assets['icarus-gif'],
+            "link": "https://sciencedoge.itch.io/icarus-vr",
+            "hero": false
+        },
+        {
+            "name": "Doodle Day",
+            "desc": "Made in under 24 hours as a prototype for Wolfjam 2023. Awarded at the end of the competition as a winner.",
+            "dates": "November 2023",
+            "image": assets['doodle-gif'],
+            "link": "https://prestosilver.itch.io/d-day",
             "hero": false
         }
     ],
