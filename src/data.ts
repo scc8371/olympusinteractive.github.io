@@ -44,7 +44,7 @@ export default {
         {
             "name": "Kai Stone",
             "role": "3D / 2D Artist",
-            "portrait": assets['placeholder-person']
+            "portrait": assets['kai-image']
         },
         {
             "name": "Claire Wang",
@@ -54,7 +54,7 @@ export default {
         {
             "name": "Trevor Strickland",
             "role": "Audio Designer",
-            "portrait": assets['placeholder-person']
+            "portrait": assets['trevor-image']
         }
     ],
     "socialIcons" : [

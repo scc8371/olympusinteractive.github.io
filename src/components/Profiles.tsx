@@ -1,16 +1,15 @@
 import React from 'react'
 import "../styles/Profiles.css"
-import assets from "../assets"
-import Button from "../components/Button"
 import Panel from "../components/Panel"
 import Header from "../components/Header"
+import Divider from "../components/Divider"
 import data from "../data.ts"
 
 const Profiles = () => {
   return (
     <div className="profiles" id="profiles-section">
       <>
-
+      
         <Header subtitle="The Olympians">Team</Header>
 
         <div className="team-showcase">
@@ -20,6 +19,8 @@ const Profiles = () => {
             })
           }
         </div>
+
+        <Divider hasBgImage={true} color="secondary" position="absolute"></Divider>
       </>
     </div>
   )

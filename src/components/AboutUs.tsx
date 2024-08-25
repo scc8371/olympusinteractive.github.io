@@ -3,6 +3,7 @@ import "../styles/AboutUs.css"
 import IconPanel from "./IconPanel"
 import Panel from "./Panel"
 import Header from "./Header"
+import Divider from './Divider'
 
 interface Props {
     children: string,
@@ -21,8 +22,13 @@ const AboutUs: React.FC<Props> = ({ children, imgLink }) => {
                     </div>
                     <img className="about-us-img" src={imgLink}>
                     </img>
+                    
                 </div>
+                <Divider hasBgImage={false} color="secondary" position="relative"></Divider>
+                
             </div>
+
+
 
         </>
     )

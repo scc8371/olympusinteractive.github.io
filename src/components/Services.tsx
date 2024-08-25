@@ -3,13 +3,12 @@ import IconPanel from "./IconPanel"
 import { faGamepad, faCode, faPen, faPaintbrush } from "@fortawesome/free-solid-svg-icons"
 import Button from "./Button"
 import Header from "./Header"
+import Divider from "./Divider"
 
 const Services = () => {
     return (
         <>
             <div id="services-wrapper">
-
-
                 <div className="services-header" id="services-section">
                     <Header subtitle='Open to Work'>Our Services</Header>
                 </div>
@@ -21,7 +20,10 @@ const Services = () => {
                 </div>
 
                 <div className="services-button"><Button link="#contact-us-section">Contact Us!</Button></div>
+                <Divider hasBgImage={false} color="primary" position="relative"></Divider>
             </div>
+
+            
         </>
     )
 }

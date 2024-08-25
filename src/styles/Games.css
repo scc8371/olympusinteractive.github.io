@@ -15,9 +15,6 @@
     grid-template-rows: 200px auto auto;
 
     grid-area: "games" !important;
-    
-    background-image: url("../assets/bgs/site-bg.webp");
-    background-repeat: repeat;
 }
 
 .games-showcase {

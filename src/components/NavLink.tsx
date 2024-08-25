@@ -26,9 +26,6 @@ const NavLink: React.FC<LinkProps> = ({ children, link }) => {
             const viewportCenter = viewportHeight / 2;
             const scrollY = window.scrollY + viewportCenter;
 
-            console.log(scroll);
-            console.log(sectionId, sectionTop, sectionBottom);
-
             const inArea = scrollY < sectionBottom && scrollY > sectionTop;
 
             setHighlighted(inArea);

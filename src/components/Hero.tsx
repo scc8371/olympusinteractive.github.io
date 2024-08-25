@@ -2,6 +2,7 @@ import "../styles/Hero.css"
 import assets from "../assets"
 import IconList from "./IconList"
 import data from "../data.ts"
+import Divider from "./Divider.tsx"
 
 const Hero = () => {
     return (

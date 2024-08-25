@@ -3,10 +3,11 @@ import Panel from "../components/Panel"
 import Header from "../components/Header"
 
 import data from "../data.ts"
+import Divider from "./Divider.tsx"
 
 const Games = () => {
   return (
-    <div className="games" id="games-section">
+    <div className="games has-bg-img" id="games-section">
       <>
         <Header subtitle="Our Mythos">Games</Header>
 
@@ -45,9 +46,17 @@ const Games = () => {
               })
             }
           </>
+
+          
         </div>
+
+        
       </>
+      <Divider hasBgImage={false} color="primary" position="absolute"></Divider>
+     
     </div>
+
+    
   )
 }
 

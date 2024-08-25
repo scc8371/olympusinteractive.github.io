@@ -8,6 +8,8 @@ import will_img from "./assets/profile-img/will.jpg"
 import sami_img from "./assets/profile-img/sami.jpg"
 import iain_img from "./assets/profile-img/iain.jpg"
 import justin_img from "./assets/profile-img/justin.jpg"
+import trevor_img from "./assets/profile-img/trevor.webp"
+import kai_img from "./assets/profile-img/kai.webp"
 
 export default {
     "logo" : logo,
@@ -19,5 +21,7 @@ export default {
     "will-image": will_img,
     "sami-image": sami_img,
     "iain-image": iain_img,
-    "justin-image": justin_img
+    "justin-image": justin_img,
+    "trevor-image": trevor_img,
+    "kai-image": kai_img
 };
