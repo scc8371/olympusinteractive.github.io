@@ -1,5 +1,5 @@
 import assets from "./assets.ts"
-import { faXTwitter, faInstagram, faDiscord, faYoutube, faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import { faXTwitter, faInstagram, faDiscord, faYoutube, faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 export default {
@@ -15,7 +15,7 @@ export default {
         {
             "name": "Nebulicious",
             "desc": "Made for Society of Play's Hexcode Jam 3. A cooking game where you drive a UFO around a planet to get resources.",
-            "dates": "January 2024",
+            "dates": "June 2024",
             "image": assets['nebulicious-gif'],
             "link": "https://willyjeon.itch.io/nebulicious",
             "hero": false
@@ -56,7 +56,7 @@ export default {
                     "icon_definition": faGlobe
                 },
                 {
-                    "link": "",
+                    "link": "https://www.linkedin.com/in/justin-looman-5285301b5/",
                     "icon_definition": faLinkedin
                 }
             ]
@@ -71,8 +71,12 @@ export default {
                     "icon_definition": faGlobe
                 },
                 {
-                    "link": "",
+                    "link": "https://www.linkedin.com/in/sami-chamberlain/",
                     "icon_definition": faLinkedin
+                },
+                {
+                    "link": "https://www.github.com/scc8371",
+                    "icon_definition": faGithub
                 }
             ]
         },
@@ -101,7 +105,7 @@ export default {
                     "icon_definition": faGlobe
                 },
                 {
-                    "link": "",
+                    "link": "https://www.linkedin.com/in/iain-roach/",
                     "icon_definition": faLinkedin
                 }
             ]
@@ -114,22 +118,14 @@ export default {
                 {
                     "link": "https://rocktobot.carrd.co/",
                     "icon_definition": faGlobe
-                },
-                {
-                    "link": "",
-                    "icon_definition": faLinkedin
                 }
             ]
         },
         {
             "name": "Claire Wang",
             "role": "2D Artist",
-            "portrait": assets['placeholder-person'],
+            "portrait": assets['claire-image'],
             "socials": [
-                {
-                    "link": "",
-                    "icon_definition": faLinkedin
-                }
             ]
         },
         {
@@ -138,7 +134,7 @@ export default {
             "portrait": assets['trevor-image'],
             "socials": [
                 {
-                    "link": "",
+                    "link": "https://www.linkedin.com/in/trevor-strickland-840796247/",
                     "icon_definition": faLinkedin
                 }
             ]

@@ -1,6 +1,6 @@
 import "../styles/Games.css"
-import Panel from "../components/Panel"
-import Header from "../components/Header"
+import Panel from "./Panel.tsx"
+import Header from "./Header.tsx"
 
 import data from "../data.ts"
 import Divider from "./Divider.tsx"

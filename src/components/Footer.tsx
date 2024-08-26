@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/Footer.css"
-import IconList from './IconList'
+import IconList from './IconList.tsx'
 import data from "../data.ts"
 
 interface Props {

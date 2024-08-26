@@ -1,7 +1,7 @@
 import "../styles/Profiles.css"
-import Panel from "../components/Panel"
-import Header from "../components/Header"
-import Divider from "../components/Divider"
+import Panel from "./Panel.tsx"
+import Header from "./Header.tsx"
+import Divider from "./Divider.tsx"
 import data from "../data.ts"
 import IconList from './IconList.tsx'
 

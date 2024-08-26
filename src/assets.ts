@@ -11,6 +11,7 @@ import iain_img from "./assets/profile-img/iain.jpg"
 import justin_img from "./assets/profile-img/justin.jpg"
 import trevor_img from "./assets/profile-img/trevor.webp"
 import kai_img from "./assets/profile-img/kai.webp"
+import claire_img from "./assets/profile-img/claire.png"
 
 import ninjas_on_trampolines_gif from "./assets/game-img/ninjas.gif"
 import helpless_gif from "./assets/game-img/helpless.gif"
@@ -39,5 +40,6 @@ export default {
     "iain-image": iain_img,
     "justin-image": justin_img,
     "trevor-image": trevor_img,
-    "kai-image": kai_img
+    "kai-image": kai_img,
+    "claire-image": claire_img
 };

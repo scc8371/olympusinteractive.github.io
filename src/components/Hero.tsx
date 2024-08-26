@@ -1,6 +1,6 @@
 import "../styles/Hero.css"
-import assets from "../assets"
-import IconList from "./IconList"
+import assets from "../assets.ts"
+import IconList from "./IconList.tsx"
 import data from "../data.ts"
 
 const Hero = () => {
