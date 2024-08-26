@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { ReactElement, useState } from 'react'
 import "../styles/Panel.css"
 import Button from "./Button"
 
@@ -11,12 +11,13 @@ interface Props {
     children?: string,
     buttonText?: string,
     tag?: string,
-    link?: string
+    link?: string,
+    innerElement?: ReactElement
 }
 
 
 
-const Panel: React.FC<Props> = ({ imageSource, imageAlt, children, tag, title, dates, buttonText, link }) => {
+const Panel: React.FC<Props> = ({ imageSource, imageAlt, children, tag, title, dates, buttonText, link, innerElement }) => {
 
     const [buttonVisibility, setButtonVisibility] = useState(false);
     if ((buttonText != undefined) && buttonVisibility !== true) {
@@ -37,6 +38,7 @@ const Panel: React.FC<Props> = ({ imageSource, imageAlt, children, tag, title, d
 
     return (
         <>
+        {console.log(link)}
             <div className={`panel panel-default ${link ? 'clickable' : ''}`} id={tag} onClick={handleClick}>
                 <div className="panel-body">
 
@@ -48,6 +50,8 @@ const Panel: React.FC<Props> = ({ imageSource, imageAlt, children, tag, title, d
                     </div>
                     <p className="panel-desc">{children}</p>
                     {buttonVisibility && <Button link={link ? link : ""}>{buttonText}</Button>}
+
+                    {innerElement}
                 </div>
             </div>
         </>

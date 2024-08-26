@@ -1,5 +1,6 @@
 import assets from "./assets.ts"
 import { faXTwitter, faInstagram, faDiscord, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 export default {
     "projects": [
@@ -48,43 +49,79 @@ export default {
         {
             "name": "Justin Looman",
             "role": "Producer",
-            "portrait": assets['justin-image']
+            "portrait": assets['justin-image'],
+            "socials": [
+                {
+                    "link": "https://www.justinlooman.com",
+                    "icon_definition": faGlobe
+                }
+            ]
         },
         {
             "name": "Sami Chamberlain",
             "role": "Lead Programmer",
-            "portrait": assets['sami-image']
+            "portrait": assets['sami-image'],
+            "socials": [
+                {
+                    "link": "https://www.samichamberlain.com",
+                    "icon_definition": faGlobe
+                }
+            ]
         },
         {
             "name": "William Jeon",
             "role": "Technical Artist",
-            "portrait": assets['will-image']
+            "portrait": assets['will-image'],
+            "socials": [
+                {
+                    "link": "https://www.williamjeon.dev",
+                    "icon_definition": faGlobe
+                }
+            ]
         },
         {
             "name": "Iain Roach",
             "role": "Programmer",
-            "portrait": assets['iain-image']
+            "portrait": assets['iain-image'],
+            "socials": [
+                {
+                    "link": "https://www.iainroach.com",
+                    "icon_definition": faGlobe
+                }
+            ]
         },
         {
             "name": "Kai Stone",
             "role": "3D / 2D Artist",
-            "portrait": assets['kai-image']
+            "portrait": assets['kai-image'],
+            "socials": [
+                {
+                    "link": "https://rocktobot.carrd.co/",
+                    "icon_definition": faGlobe
+                },
+            ]
         },
         {
             "name": "Claire Wang",
             "role": "2D Artist",
-            "portrait": assets['placeholder-person']
+            "portrait": assets['placeholder-person'],
+            "socials": [
+      
+            ]
         },
         {
             "name": "Trevor Strickland",
             "role": "Audio Designer",
-            "portrait": assets['trevor-image']
+            "portrait": assets['trevor-image'],
+            "socials": [
+       
+            ]
         }
     ],
-    "socialIcons" : [
+    "socialIcons": [
         { link: 'https://x.com/olympusinteract', icon_definition: faXTwitter },
         { link: 'https://www.instagram.com/invites/contact/?igsh=cdbzbtkpqup9&utm_content=vjpjm40', icon_definition: faInstagram },
         { link: 'https://discord.gg/DgFe8qdCYG', icon_definition: faDiscord },
         { link: 'https://www.youtube.com/@OlympusInteractive', icon_definition: faYoutube }
-      ]
+    ]
 };

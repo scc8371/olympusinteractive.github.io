@@ -39,7 +39,8 @@ const Games = () => {
                     title={p.name}
                     dates={p.dates}
                     tag="display"
-                    buttonText="Learn More!">
+                    buttonText="Learn More!"
+                    link={p.link}>
                     {p.desc}
                   </Panel>
                 }

@@ -1,6 +1,5 @@
 import React from 'react'
 import "../styles/AboutUs.css"
-import IconPanel from "./IconPanel"
 import Panel from "./Panel"
 import Header from "./Header"
 import Divider from './Divider'
@@ -15,10 +14,10 @@ const AboutUs: React.FC<Props> = ({ children, imgLink }) => {
     return (
         <>
             <div className="about-us-wrapper" id="about-us-section">
-                <Header subtitle='Our Pantheon'>About Us</Header>
+                <Header subtitle=''>About Us</Header>
                 <div className="about-us">
                     <div className="about-us-desc">
-                        <Panel title="OUR TESTIMENT">{children}</Panel>
+                        <Panel title="THE OLYMPUS INTERACTIVE TEAM">{children}</Panel>
                     </div>
                     <img className="about-us-img" src={imgLink}>
                     </img>

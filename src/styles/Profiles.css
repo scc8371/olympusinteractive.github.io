@@ -11,9 +11,25 @@
     background: #cd7f7f;
 }
 
+.profiles .footer-logos {
+    position: absolute;
+    margin-top: 8rem;
+    opacity: 0;
+}
+
+.profiles .panel:hover .footer-logos {
+    transition: all 0.3s ease;
+    transform: translate(0, 30px);
+    opacity: 1;
+    justify-self: center !important;
+
+    background-color: rgba(0, 0, 0, 0.541);
+    width: 100%;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
 .team-showcase {
-
-
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -22,14 +38,24 @@
 }
 
 .team-showcase .panel {
-    max-width: 300px !important;
+    max-width: 225px !important;
     justify-content: center;
 
     white-space: pre-wrap;
     word-break: break-word;
 
     padding-bottom: 1rem !important;
+    padding-right: 0rem !important;
+    padding-left: 0rem !important;
+    padding-top: 0rem !important;
 
+    border: 5px solid rgba(206, 202, 202, 0.568);
+
+}
+
+.team-showcase .panel img {
+    max-width: 225px !important;
+    max-height: 225px !important;
 }
 
 .team-showcase .panel .panel-title {
@@ -37,11 +63,13 @@
 
     margin: 0rem !important;
     padding: 0rem !important;
+    padding: 0.25rem !important;
 }
 
 .team-showcase .panel .panel-desc {
     padding-top: .2rem;
     color: #9e0000;
+    padding: 0.25rem !important;
 }
 
 .team-showcase .panel-dates {

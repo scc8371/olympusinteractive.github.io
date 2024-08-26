@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+
 .linkImg {
     display: flex;
     justify-content: center;
@@ -35,6 +38,11 @@
 
     clip-path: polygon(0% 100%, 10% 70%, 20% 100%, 30% 70%, 40% 100%, 50% 70%, 60% 100%, 70% 70%, 80% 100%, 90% 70%, 100% 100%);
 
+}
+
+h1{
+    font-family: 'Cinzel';
+    font-size: 1.6rem;
 }
 
 .secondary {
