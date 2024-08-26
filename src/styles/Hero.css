@@ -55,10 +55,33 @@
     padding-left: 2rem;
 }
 
+@keyframes wiggleAndGrow {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+    25% {
+        transform: scale(1.01) rotate(1deg);
+    }
+    50% {
+        transform: scale(1.01) rotate(-1deg);
+    }
+    75% {
+        transform: scale(1.01) rotate(1deg);
+    }
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+}
+
 .hero #c-logo {
     width: 66%;
     padding-bottom: .5rem;
     align-self: center;
+    
+}
+
+.hero #c-logo:hover {
+    animation: wiggleAndGrow 0.3s ease forwards;
 }
 
 .hero #btn-link {
