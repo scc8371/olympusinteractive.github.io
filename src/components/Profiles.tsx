@@ -1,4 +1,3 @@
-import React from 'react'
 import "../styles/Profiles.css"
 import Panel from "../components/Panel"
 import Header from "../components/Header"

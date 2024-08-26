@@ -1,11 +1,11 @@
-import React from 'react'
 import "../styles/AboutUs.css"
 import Panel from "./Panel"
 import Header from "./Header"
 import Divider from './Divider'
+import { ReactNode } from "react"
 
 interface Props {
-    children: string,
+    children: ReactNode,
     imgLink: string
 
 }

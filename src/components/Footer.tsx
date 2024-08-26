@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react'
+import React from 'react'
 import "../styles/Footer.css"
 import IconList from './IconList'
 import data from "../data.ts"

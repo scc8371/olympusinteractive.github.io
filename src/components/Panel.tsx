@@ -1,4 +1,4 @@
-import React, { ReactElement, useState } from 'react'
+import React, { ReactElement, ReactNode, useState } from 'react'
 import "../styles/Panel.css"
 import Button from "./Button"
 
@@ -8,7 +8,7 @@ interface Props {
     imageAlt?: string,
     title: string,
     dates?: string,
-    children?: string,
+    children?: ReactNode,
     buttonText?: string,
     tag?: string,
     link?: string,
