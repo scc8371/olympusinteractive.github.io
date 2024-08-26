@@ -1,5 +1,5 @@
 import assets from "./assets.ts"
-import { faXTwitter, faInstagram, faDiscord, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faXTwitter, faInstagram, faDiscord, faYoutube, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 export default {
@@ -54,6 +54,10 @@ export default {
                 {
                     "link": "https://www.justinlooman.com",
                     "icon_definition": faGlobe
+                },
+                {
+                    "link": "",
+                    "icon_definition": faLinkedin
                 }
             ]
         },
@@ -65,6 +69,10 @@ export default {
                 {
                     "link": "https://www.samichamberlain.com",
                     "icon_definition": faGlobe
+                },
+                {
+                    "link": "",
+                    "icon_definition": faLinkedin
                 }
             ]
         },
@@ -76,6 +84,10 @@ export default {
                 {
                     "link": "https://www.williamjeon.dev",
                     "icon_definition": faGlobe
+                },
+                {
+                    "link": "https://www.linkedin.com/in/williamjeon02/",
+                    "icon_definition": faLinkedin
                 }
             ]
         },
@@ -87,6 +99,10 @@ export default {
                 {
                     "link": "https://www.iainroach.com",
                     "icon_definition": faGlobe
+                },
+                {
+                    "link": "",
+                    "icon_definition": faLinkedin
                 }
             ]
         },
@@ -99,6 +115,10 @@ export default {
                     "link": "https://rocktobot.carrd.co/",
                     "icon_definition": faGlobe
                 },
+                {
+                    "link": "",
+                    "icon_definition": faLinkedin
+                }
             ]
         },
         {
@@ -106,7 +126,10 @@ export default {
             "role": "2D Artist",
             "portrait": assets['placeholder-person'],
             "socials": [
-      
+                {
+                    "link": "",
+                    "icon_definition": faLinkedin
+                }
             ]
         },
         {
@@ -114,7 +137,10 @@ export default {
             "role": "Audio Designer",
             "portrait": assets['trevor-image'],
             "socials": [
-       
+                {
+                    "link": "",
+                    "icon_definition": faLinkedin
+                }
             ]
         }
     ],

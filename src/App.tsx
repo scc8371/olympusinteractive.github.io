@@ -35,9 +35,10 @@ const App = () => {
           We are a small group of individuals located around the United States. We met as a group at the Rochester Institute of Technology, where we discovered our shared passion for game development and honed our collaborative skills together. Our diverse backgrounds allowed us to work together with ease, creating innovative and top notch projects. <br></br><br></br>Our largest project is Ninjas on Trampolines, which has been funded through the MAGIC Maker Program at RIT. We have several other projects, all of which have been in development for a few days to a few months.<br></br><br></br>
           <hr></hr>
 
-          <h1>OUR THUNDER</h1>
+          Further developing our skills and knowledge will always be a goal we strive for. We want to make games that advance our skills and, at their core, be for the players. We are looking to provide assistance to projects that align with our goals and have a proven record of success working as a team in fast-paced enviroments. As such, we are not afraid of challenges given to us or stepping out of our comfort zones.
+          <br></br><br></br>
+          Our dream is to officially open a studio where we can turn our efforts into a career. We have worked hard to get to this point and will continue to do so into the far future.
 
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita distinctio ad corporis, beatae molestiae nobis nulla officiis assumenda, sint quod culpa ex aliquam non minima nemo! Distinctio, corrupti? In enim culpa, quod hic aspernatur nobis excepturi deleniti, voluptas cumque voluptate autem eos blanditiis omnis illo mollitia et sunt, accusantium dicta. Sint praesentium dolores non dicta similique iste ducimus qui, repellendus voluptate aliquid officia inventore id quam tenetur facilis. Nulla quas reiciendis cumque ut, iure culpa amet mollitia a nam veniam, accusantium distinctio laborum delectus sequi illo laboriosam maiores magnam nesciunt quidem dolorum eaque repudiandae minus hic! Cumque voluptatem natus nesciunt.
         </AboutUs>
         <ContactUs></ContactUs>
         <Footer logoLink={assets["logo-no-background"]}></Footer>
