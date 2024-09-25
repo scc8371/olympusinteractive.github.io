@@ -33,10 +33,6 @@
 @media screen and (max-width: 860px) {
     .services {
         grid-template-columns: repeat(1, 1fr);
+        justify-content: center !important;
     }
-}
-
-body {
-    background-image: url("../assets/bgs/site-bg.webp");
-    background-repeat: repeat;
 }

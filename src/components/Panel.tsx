@@ -38,7 +38,6 @@ const Panel: React.FC<Props> = ({ imageSource, imageAlt, children, tag, title, d
 
     return (
         <>
-        {console.log(link)}
             <div className={`panel panel-default ${link ? 'clickable' : ''}`} id={tag} onClick={handleClick}>
                 <div className="panel-body">
 

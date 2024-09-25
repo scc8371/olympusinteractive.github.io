@@ -1,21 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 
-.headerGroup{
+.headerGroup {
     position: absolute;
     top: 0;
     padding-top: 50px;
     padding-left: 50px;
 }
 
-.headerGroup h1{
+.headerGroup h1 {
     font-size: 40px !important;
     border-bottom: #FFF 3px solid;
     width: 300px;
-
     font-family: 'Cinzel'
 }
 
-.headerGroup h3{
+.headerGroup h3 {
     display: flex;
     justify-content: end;
     font-size: 26px;
@@ -26,9 +25,19 @@
 }
 
 
-@media screen and (max-width: 500px){
-    .headerGroup{
+@media screen and (max-width: 500px) {
+    .headerGroup {
         padding-left: 25px;
         padding-top: 25px;
+    }
+
+    .headerGroup > h1 {
+        font-size: 30px !important;
+        width: 200px;
+    }
+
+    .headerGroup > h3 {
+        font-size: 16px;
+        width: 200px;
     }
 }

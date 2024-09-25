@@ -128,6 +128,10 @@
         margin: 1rem;
     }
 
+    .email{
+        font-size: 1rem !important;
+    }
+
     .contact-us {
         grid-template-rows: 3rem auto;
     }
