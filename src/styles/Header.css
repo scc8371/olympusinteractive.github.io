@@ -3,15 +3,16 @@
 .headerGroup {
     position: absolute;
     top: 0;
-    padding-top: 50px;
-    padding-left: 50px;
+    padding-top: 50px !important;
+    padding-left: 50px !important;
 }
 
 .headerGroup h1 {
     font-size: 40px !important;
     border-bottom: #FFF 3px solid;
     width: 300px;
-    font-family: 'Cinzel'
+    font-family: 'Cinzel';
+    font-weight: 600;
 }
 
 .headerGroup h3 {
@@ -20,8 +21,10 @@
     font-size: 26px;
     position: absolute;
     width: 300px;
+    padding-top: 5px;
 
-    font-family: 'Cinzel'
+    font-family: 'Cinzel';
+    font-weight: 600;
 }
 
 
